@@ -1,196 +1,733 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore my web development portfolio and projects.">
-    <title>My Portfolio | Web Developer</title>
+    <title>Hlulani Tyrone Mthombeni | Software Developer</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<meta name="description" content="Explore the portfolio of Hlulani Tyrone Mthombeni, showcasing software development, web applications, desktop applications and AI projects.">
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<meta name="theme-color" content="#050816">
 
-        body {
-            font-family: 'DM Sans', sans-serif;
-            background: #100b20;
-            color: white;
-            line-height: 1.7;
-        }
+    <link rel="stylesheet" href="style.css">
 
-        header {
-            padding: 22px 8%;
-            border-bottom: 1px solid rgba(185,165,255,.18);
-        }
-
-        .logo {
-            font-family: 'Manrope', sans-serif;
-            font-size: 24px;
-            font-weight: 800;
-            color: #b9a5ff;
-        }
-
-        .hero {
-            text-align: center;
-            padding: 100px 20px 75px;
-        }
-
-        .hero span {
-            color: #b9a5ff;
-            font-weight: 700;
-        }
-
-        h1, h2, h3 {
-            font-family: 'Manrope', sans-serif;
-        }
-
-        h1 {
-            font-size: clamp(38px, 7vw, 65px);
-            line-height: 1.15;
-            margin: 15px 0;
-        }
-
-        .hero p {
-            max-width: 650px;
-            margin: 15px auto;
-            color: #c2bad7;
-        }
-
-        .projects {
-            padding: 40px 8% 100px;
-        }
-
-        .projects h2 {
-            font-size: 32px;
-            margin-bottom: 12px;
-        }
-
-        .intro {
-            color: #c2bad7;
-            margin-bottom: 35px;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 24px;
-        }
-
-        .card {
-            background: #1b1430;
-            border: 1px solid rgba(185,165,255,.18);
-            border-radius: 18px;
-            padding: 28px;
-            transition: .3s;
-        }
-
-        .card:hover {
-            transform: translateY(-6px);
-            border-color: #8b6cff;
-        }
-
-        .number {
-            color: #b9a5ff;
-            font-size: 14px;
-            font-weight: 700;
-        }
-
-        .card h3 {
-            margin: 12px 0;
-            font-size: 22px;
-        }
-
-        .card p {
-            color: #c2bad7;
-            margin-bottom: 24px;
-        }
-
-        .card a {
-            display: inline-block;
-            text-decoration: none;
-            background: #8b6cff;
-            color: white;
-            padding: 10px 18px;
-            border-radius: 8px;
-            font-weight: 700;
-        }
-
-        .card a:hover {
-            background: #5b3cc4;
-        }
-
-        footer {
-            text-align: center;
-            padding: 30px 15px;
-            border-top: 1px solid rgba(185,165,255,.18);
-            color: #c2bad7;
-        }
-    </style>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
 <header>
-    <div class="logo">MY PORTFOLIO.</div>
+    <nav>
+        <a href="#home" class="brand">
+            <img src="pictures/000.jpeg" alt="Tyrone logo">
+            <div class="brand-text">
+                <span>Tyrone</span>
+                <small>          Portfolio</small>
+            </div>
+        </a>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#modules">Modules</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 </header>
 
-<section class="hero">
-    <span>WELCOME TO MY PORTFOLIO</span>
-    <h1>Building Digital<br>Experiences.</h1>
-    <p>
-        Explore my web development projects, creative ideas
-        and practical applications built using modern web technologies.
-    </p>
-</section>
+<!-- HERO SECTION -->
 
-<section class="projects">
-    <h2>Featured Projects</h2>
-    <p class="intro">A selection of projects from my development portfolio.</p>
+<section class="hero fade" id="home">
 
-    <div class="grid">
+    <div class="hero-content">
 
-        <article class="card">
-            <span class="number">PROJECT 01</span>
-            <h3>Mining Company Website</h3>
-            <p>
-                A responsive company website showcasing mining services,
-                operations, projects and company information.
-            </p>
-            <a href="Construction/index.html">View Project →</a>
-        </article>
+        <h3>Hello, I'm</h3>
 
-        <article class="card">
-            <span class="number">PROJECT 02</span>
-            <h3>Haute Couture</h3>
-            <p>
-                A premium streetwear e-commerce website featuring
-                products, shopping pages and an online shopping experience.
-            </p>
-            <a href="Construction/Haute/index.html">View Project →</a>
-        </article>
+        <h1>Hlulani Tyrone Mthombeni</h1>
 
-        <article class="card">
-            <span class="number">PROJECT 03</span>
-            <h3>Construction Website</h3>
-            <p>
-                A construction-focused website with service information,
-                project pages and responsive layouts.
-            </p>
-            <a href="Minningwebsite-git/Construction/index.html">View Project →</a>
-        </article>
+        <h2>Software Developer | Web Developer | Future Systems Analyst</h2>
+
+        <p>
+            Third-Year Information Technology student specializing in
+            Software Development at Rosebank International University.
+            Passionate about Artificial Intelligence, Web Development,
+            Cybersecurity, Databases, and building innovative software solutions.
+        </p>
+
+        <div class="buttons">
+
+            <a href="doc/cv.docx"
+               download
+               class="btn">
+               Download CV
+            </a>
+        </div>
 
     </div>
+
+    <div class="hero-image slide-right">
+        <img src="pictures/8.jpeg" alt="Hlulani Tyrone Mthombeni">
+    </div>
+
 </section>
 
-<footer>
-    <p>© 2026 My Portfolio. Built with HTML, CSS and JavaScript.</p>
-</footer>
+<!-- ABOUT -->
 
-</body>
-</html>
+<section id="about" class="fade">
+
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-text">
+
+        <p>
+
+            Hello! My name is Hlulani Tyrone Mthombeni, and I am a passionate
+            Information Technology student specializing in Software Development
+            at Rosebank International University in Johannesburg, Gauteng,
+            South Africa.
+
+            I am currently in my third year of study and have developed a
+            strong foundation in software development, web technologies,
+            database systems, information security, and systems analysis.
+
+            My educational journey began at Singobuli Primary School before
+            continuing my secondary education at Maroleni Secondary School,
+            where I successfully completed my National Senior Certificate
+            (Matric) in 2023.
+
+            In 2025, I enrolled at Rosebank International University to pursue
+            my passion for technology and software development. Since then,
+            I have worked on numerous projects involving programming,
+            artificial intelligence, chatbot development, web applications,
+            desktop applications, and database-driven systems.
+
+            My goal is to become a highly skilled Software Developer capable
+            of designing innovative digital solutions that solve real-world
+            problems and improve the lives of users through technology.
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- EDUCATION -->
+
+<section id="education" class="fade">
+
+    <h2 class="section-title">Education Journey</h2>
+    <p class="section-subtitle">A clear look at my academic path, from school through university and Udacity AI/ML certification.</p>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <div class="timeline-head">
+                <h3>Primary Education</h3>
+                <span class="timeline-date">2010 - 2014</span>
+            </div>
+            <p>Sinqobile Primary School</p>
+           
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-head">
+                <h3>Secondary Education</h3>
+                <span class="timeline-date">2016 - 2023</span>
+            </div>
+            <p>Marholeni Secondary School</p>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-head">
+                <h3>University Studies</h3>
+                <span class="timeline-date">2025 - Present</span>
+            </div>
+            <p>Rosebank International University</p>
+            <p>Information Technology - Software Development</p>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-head">
+                <h3>Udacity Scholar</h3>
+                <span class="timeline-date">2025</span>
+            </div>
+            <p>AWS AI & ML Scholar program</p>
+            <p>2 certificates earned in AI and Machine Learning</p>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-head">
+                <h3>Expected Graduation</h3>
+                <span class="timeline-date">2027</span>
+            </div>
+            <p>Rosebank International University</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CERTIFICATES -->
+
+<section id="certificates" class="fade">
+
+    <h2 class="section-title">Udacity Certificates</h2>
+
+    <div class="certificate-grid">
+
+        <div class="certificate-card">
+            <img class="slide-left" src="pictures/UDA.jpeg" alt="Udacity certificate 1">
+            <h3>AWS AI Scholar</h3>
+            <p>Completed the Udacity AWS AI Scholar path with hands-on ML practice.</p>
+            <p>2026/06/24</p>
+        </div>
+
+        <div class="certificate-card">
+            <img class="slide-right" src="pictures/CITY.jpeg" alt="Udacity certificate 2">
+            <h3>AWS ML Scholar</h3>
+            <p>Completed the Udacity AWS ML Scholar path with AI and model deployment content.</p>
+            <p>2026/06/24</p>
+        </div>
+
+    </div>
+   <section class="fade">
+    <div class="buttons">
+
+        <a href="doc/AWS.pdf"
+           download
+           class="btn">
+            UDACITY AI PRACTITIONER CHALLENGE CERTIFICATE
+        </a>
+    </div>
+</section>
+</section>
+
+<!-- MODULES -->
+
+
+<section id="modules" class="fade">
+
+    <h2 class="section-title">Academic Modules</h2>
+
+    <div class="module-groups">
+
+        <div class="module-group">
+            <h3>Semester 1</h3>
+            <div class="skill-card">Business Information Systems (BUIS5111)</div>
+            <div class="skill-card">Programming (PROG5121)</div>
+            <div class="skill-card">Information Quality Technology (IQTT5111)</div>
+            <div class="skill-card">Information Technology Project (ITPP5112)</div>
+        </div>
+
+        <div class="module-group">
+            <h3>Semester 2</h3>
+            <div class="skill-card">Database Systems (DATA6211)</div>
+            <div class="skill-card">Database Systems (DATA6222)</div>
+            <div class="skill-card">Human Computer Interaction (HCIN6222)</div>
+            <div class="skill-card">Project Management (IPMA6212)</div>
+        </div>
+
+        <div class="module-group">
+            <h3>Semester 3</h3>
+            <div class="skill-card">Information Security (ISEC6321)</div>
+            <div class="skill-card">Operating Systems (OPSY5121)</div>
+            <div class="skill-card">Professional Development (PRLD5121)</div>
+        </div>
+
+        <div class="module-group">
+            <h3>Semester 4</h3>
+            <div class="skill-card">Programming (PROG6112)</div>
+            <div class="skill-card">Programming (PROG6212)</div>
+            <div class="skill-card">Programming (PROG622)</div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section id="projects" class="fade">
+
+    <h2 class="section-title">Projects & Showcase</h2>
+    <p class="section-subtitle">A selection of recent work, design explorations, and showcase visuals that highlight my development and design skills.</p>
+
+    <div class="projects-grid">
+
+        <div class="project-card">
+            <img src="pictures/2.jpeg" alt="Project screenshot">
+            <h3>E-commerce UI</h3>
+            <p>Modern responsive storefront design built with HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="pictures/key.jpeg" alt="Project screenshot">
+            <h3>Portfolio Website</h3>
+            <p>A polished portfolio layout that highlights skills, experience, and milestones.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="pictures/4.jpeg" alt="Project screenshot">
+            <h3>AI Dashboard</h3>
+            <p>Interactive dashboard concept with analytics and clean data visuals.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="pictures/fx.jpeg" alt="Project screenshot">
+            <h3>Chatbot Interface</h3>
+            <p>Conversational AI interface design for customer support and engagement.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="pictures/place.jpeg" alt="Project screenshot">
+            <h3>Database Management</h3>
+            <p>Database schema and management system for efficient data handling.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="pictures/app.jpeg" alt="Project screenshot">
+            <h3>Mobile App UI</h3>
+            <p>Clean and intuitive mobile application interface design.</p>
+        </div>
+    </div>
+</section><!-- PROJECTS -->
+
+<section id="projects" class="fade">
+
+    <h2 class="section-title">Confidential & Modern Artwork</h2>
+
+    <p class="section-subtitle">
+        Explore my software development projects, desktop applications,
+        web applications and practical technology solutions.
+    </p>
+
+    <div class="projects-grid">
+
+        <!-- PROJECT 1: HAUTE COUTURE -->
+
+        <div class="project-card">
+            <img src="Screenshot/sc 1.png" alt="Haute Couture e-commerce website">
+
+            <h3>Haute Couture</h3>
+
+            <p>
+                A modern fashion e-commerce website featuring product browsing,
+                shopping cart management, checkout and EmailJS integration.
+            </p>
+
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript, EmailJS</p>
+
+            <a href="Project/haute-couture.html" class="btn">
+                View Case Study →
+            </a>
+
+            <a href="https://github.com/tyrone360/Haute-Couture"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn2">
+                GitHub Repository →
+            </a>
+        </div>
+
+
+        <!-- PROJECT 2: TYRONE CYBERSHIELD -->
+
+        <div class="project-card">
+            <img src="Tyrone CyberShield (A.I)/A.I/Main.png" alt="Tyrone CyberShield application dashboard">
+
+            <h3>Tyrone CyberShield (A.I)</h3>
+
+            <p>
+                A C# WPF cybersecurity awareness desktop application
+                featuring an interactive dashboard, Knowledge Centre,
+                learning progress tracking and an offline chatbot.
+            </p>
+
+            <p><strong>Technologies:</strong> C#, WPF, XAML, .NET Framework 4.8</p>
+
+            <a href="Tyrone CyberShield (A.I)/index.html" class="btn">
+                View Case Study →
+            </a>
+
+            <a href="https://github.com/tyrone360/ArtificialInteligency"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn2">
+                GitHub Repository →
+            </a>
+        </div>
+
+
+<!-- CAMPUSCONNECT PROJECT -->
+
+<div class="project-card">
+
+    <img src="Campus Connect/image/Home.png"
+         alt="CampusConnect student events website">
+
+    <h3>CampusConnect – Student Events Platform</h3>
+
+    <p>
+        A student-focused website that helps college students
+        discover campus activities, explore events and register
+        to participate in their college community.
+    </p>
+
+    <p>
+        <strong>Technologies:</strong>
+        HTML, CSS, JavaScript, Local Storage
+    </p>
+
+    <a href="Campus Connect/index.html" class="btn">
+        View Case Study →
+    </a>
+
+    <a href="https://github.com/tyrone360/CampusConnect"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="btn2">
+        GitHub Repository →
+    </a>
+
+</div>
+
+<!-- SYSTEM ADMINISTRATION PROJECT -->
+
+<div class="project-card">
+
+    <div class="project-icon">
+        <span>⚙️</span>
+    </div>
+
+    <h3>System Administration & User Registration</h3>
+
+    <p>
+        A Java-based application for user registration,
+        authentication and system administration.
+        Includes user account management and role-based access control.
+    </p>
+
+    <p>
+        <strong>Technologies:</strong>
+        Java, OOP, User Authentication
+    </p>
+
+    <a href="System-Administration/index.html" class="btn">
+        View Case Study →
+    </a>
+
+    <a href="https://github.com/tyrone360/System_Work_Out"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="btn2">
+        GitHub Repository →
+    </a>
+
+</div>
+
+
+<!-- MINING WEBSITE PROJECT -->
+
+ <div class="project-card">
+            <img src="Mining-Website/images/location.png" alt="Tyrone CyberShield application dashboard">
+
+
+    <h3>Mining Company Website</h3>
+
+    <p>
+        A professional mining company website showcasing company
+        information, locations, projects and contact details.
+        Designed to provide visitors with an informative online experience.
+    </p>
+
+    <p>
+        <strong>Technologies:</strong>
+        HTML5, CSS3, JavaScript
+    </p>
+
+    <a href="Mining-Website/index.html" class="btn">
+        View Case Study →
+    </a>
+
+    <a href="https://github.com/tyrone360/Minningwebsite"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="btn2">
+        GitHub Repository →
+    </a>
+
+</div>
+
+<!-- PROJECT: TV CHANNEL -->
+
+<div class="project-card">
+
+    <img src="TV Channel/image/Capture.png"
+         alt="TV Channel Series Management System">
+
+    <h3>TV Channel – Series Management System</h3>
+
+    <p>
+        A Java-based console application designed to manage
+        television series. Users can capture, search, update,
+        delete and generate reports of series records.
+    </p>
+
+    <p>
+        <strong>Technologies:</strong>
+        Java, NetBeans, OOP, ArrayList
+    </p>
+
+    <a href="TV Channel/index.html" class="btn">
+        View Case Study →
+    </a>
+
+    <a href="https://github.com/tyrone360/TV-channel"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="btn2">
+        GitHub Repository →
+    </a>
+
+</div>
+
+<!-- PROJECT 07: ASP.NET CORE WEB API -->
+
+<div class="project-card">
+
+    <img src="Netframes/images/02_Database_Tables.png"
+         alt="PROJECT 07: ASP.NET CORE WEB API">
+
+    <h3>ASP.NET Core Web API</h3>
+
+    <p>
+        A backend development project built with ASP.NET Core and C#.
+        Features RESTful API endpoints, SQL Server database integration,
+        Swagger documentation and JWT authentication.
+    </p>
+
+    <p>
+        <strong>Technologies:</strong>
+        C#, ASP.NET Core, .NET 8, SQL Server, Swagger
+    </p>
+
+    <a href="Netframes/index.html" class="btn">
+        View Case Study →
+    </a>
+
+    <a href="https://github.com/tyrone360/project"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="btn2">
+        GitHub Repository →
+    </a>
+
+</div>
+
+        
+
+    </div>
+
+</section>
+
+<!-- LIFE -->
+
+<section id="life" class="fade">
+
+    <h2 class="section-title">Life & Inspiration</h2>
+    <p class="section-subtitle">A few snapshots of the journey behind the code: study sessions, collaboration, and creative focus.</p>
+
+    <div class="life-grid">
+
+        <div class="life-card slide-left">
+            <img src="pictures/study.jpeg" alt="Study session">
+            <h3>Study Sessions</h3>
+            <p>Long coding nights, learning new technologies, and refining project workflows.</p>
+        </div>
+
+        <div class="life-card slide-right">
+            <img src="pictures/6.jpeg" alt="Campus life">
+            <h3>Campus Life</h3>
+            <p>Balancing lectures, teamwork, and practical labs at Rosebank International University.</p>
+        </div>
+
+        <div class="life-card slide-left">
+            <img src="pictures/7.jpeg" alt="Work routine">
+            <h3>Project Focus</h3>
+            <p>Turning ideas into apps with a mix of design thinking and technical implementation.</p>
+        </div>
+
+        <div class="life-card slide-right">
+            <img src="pictures/create.jpeg" alt="Creative time">
+            <h3>Creative Time</h3>
+            <p>Capturing inspiration, sketching interfaces, and planning the next big build.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- STATS -->
+
+<section class="stats fade">
+
+    <h2 class="section-title">Academic Milestones</h2>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <h1>2023</h1>
+            <p>Matric Completed</p>
+        </div>
+
+        <div class="skill-card">
+            <h1>2025</h1>
+            <p>Started University</p>
+            <figure class="milestone-figure">
+                <img class="milestone-img" src="pictures/rosebank.jpeg" alt="Rosebank International University" onerror="this.src='pictures/6.jpeg'">
+                <figcaption>Rosebank International University - Campus life</figcaption>
+            </figure>
+        </div>
+
+        <div class="skill-card">
+            <h1>2027</h1>
+            <p>Expected Graduation</p>
+            <p><strong>Degree:</strong> Bachelor of Information Technology — Software Development</p>
+            <p><strong>Notes:</strong> Coursework, capstone project, and industry placement (in progress)</p>
+        </div>
+
+        <div class="skill-card">
+            <h1>10+</h1>
+            <p>Projects Developed</p>
+            <div class="cert-list">
+                <h4>Udacity AWS Scholar</h4>
+                <ul>
+                    <li>AWS AI Scholar — 2026/06/24</li>
+                    <li>AWS ML Scholar — 2026/06/24</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="fade">
+
+    <h2 class="section-title">Contact Me</h2>
+
+    <p class="section-subtitle">
+        Have a project, collaboration or opportunity?
+        Send me a message and let's connect.
+    </p>
+
+    <div class="contact-grid">
+
+        <div class="contact-card contact-card--wide">
+
+            <h3>Let's Create Together</h3>
+
+            <p>
+                I'm always interested in learning, building
+                meaningful projects and connecting with others
+                in technology.
+            </p>
+
+            <p>
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                <strong>Email:</strong>
+                <a href="mailto:YOUR_EMAIL@example.com">
+                    YOUR_EMAIL@example.com
+                </a>
+            </p>
+
+            <p>
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                <strong>Location:</strong> Johannesburg, South Africa
+            </p>
+
+            <div class="socials">
+                <a href="https://github.com/tyrone360" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/tyrone-mthombeni-092451332/" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/tyrone_zar9" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/tyrone_zar9/" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.behance.net/tyrone_zar9" aria-label="Behance">
+                    <i class="fab fa-behance"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- CONTACT FORM -->
+
+        <div class="contact-card">
+
+            <h3>Send Me a Message</h3>
+
+            <form id="contact-form">
+ <input
+    type="text"
+    name="website"
+    tabindex="-1"
+    autocomplete="off"
+    aria-hidden="true"
+    style="position:absolute; left:-9999px;"
+>
+                <input
+                    type="text"
+                    name="from_name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    name="reply_to"
+                    placeholder="Your Email Address"
+                    required
+                >
+
+                <input
+                    type="text"
+                    name="subject"
+                    placeholder="Subject"
+                    required
+                >
+
+                <textarea
+                    name="message"
+                    rows="6"
+                    placeholder="Write your message..."
+                    required
+                ></textarea>
+
+                <button type="submit" id="submit-btn">
+                    Send Message
+                </button>
+
+                <p id="form-status" role="status" aria-live="polite"></p>
+
+            </form>
+
+        </div>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
+    </div>
+
+</section>
