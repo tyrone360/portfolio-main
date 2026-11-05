@@ -1,0 +1,796 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LearnTrack | Project Case Study</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body class="case-study">
+
+<header class="header">
+    <nav class="navbar">
+        <a href="../index.html" class="brand">
+            TYRONE<span> .</span>
+        </a>
+
+        <div class="nav-links">
+            <a href="../index.html" class="back-link">
+                ← Back to Portfolio
+            </a>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+<!-- HERO -->
+
+<section class="case-hero">
+    <p>PROJECT CASE STUDY / 002</p>
+
+    <h1>LearnTrack</h1>
+
+    <h2>Learning & Goal Tracking Web Application</h2>
+
+    <p>
+        A web application designed to help users organise
+        their learning goals, manage their progress and
+        stay focused through a structured digital platform.
+        Built with ASP.NET Core MVC and MySQL, with
+        Progressive Web App support for mobile installation.
+    </p>
+
+    <div class="buttons">
+        <a href="https://learntrack.runasp.net"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="btn">
+            View Live Project →
+        </a>
+
+        <a href="https://github.com/tyrone360/Learn-Track"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="btn">
+            GitHub Repository →
+        </a>
+    </div>
+</section>
+
+
+<!-- OVERVIEW -->
+
+<section id="overview" class="project-overview">
+
+    <h2 class="section-title">Project Overview</h2>
+
+    <p class="section-subtitle">
+        Understanding the purpose, objectives and development
+        of the LearnTrack application.
+    </p>
+
+    <div class="overview-content">
+
+        <div class="overview-description">
+
+            <h3>About the Project</h3>
+
+            <p>
+                LearnTrack is a learning and goal tracking
+                web application developed to provide users
+                with a structured way to manage their
+                learning activities and personal goals.
+            </p>
+
+            <p>
+                The application was developed using
+                ASP.NET Core MVC, C# and Entity Framework Core,
+                with MySQL serving as the database.
+                ASP.NET Core Identity provides user
+                authentication and account management.
+            </p>
+
+            <p>
+                LearnTrack also includes Progressive Web App
+                functionality, allowing users to install
+                the application on supported devices and
+                access its basic offline fallback page.
+            </p>
+
+        </div>
+
+        <div class="overview-details">
+
+            <div class="detail-card">
+                <h4>Project Name</h4>
+                <p>LearnTrack</p>
+            </div>
+
+            <div class="detail-card">
+                <h4>Project Type</h4>
+                <p>Web Application</p>
+            </div>
+
+            <div class="detail-card">
+                <h4>Development</h4>
+                <p>Full-Stack Development</p>
+            </div>
+
+            <div class="detail-card">
+                <h4>Developer</h4>
+                <p>Hlulani Tyrone Mthombeni</p>
+            </div>
+
+            <div class="detail-card">
+                <h4>Technologies</h4>
+                <p>C#, ASP.NET Core MVC, MySQL, JavaScript</p>
+            </div>
+
+            <div class="detail-card">
+                <h4>Project Status</h4>
+                <p>Deployed & Available Online</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROBLEM STATEMENT -->
+
+<section id="problem">
+
+    <h2 class="section-title">Problem Statement</h2>
+
+    <div class="overview-description">
+
+        <p>
+            Managing learning activities and personal goals
+            can become difficult without a centralised way
+            to organise progress and maintain consistency.
+
+            LearnTrack addresses this need by providing
+            a digital platform where users can manage
+            learning goals and organise their activities
+            in one place.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- OBJECTIVES -->
+
+<section id="objectives">
+
+    <h2 class="section-title">Project Objectives</h2>
+
+    <div class="objectives-grid">
+
+        <div class="objective-card">
+            <i class="fas fa-bullseye"></i>
+            <h3>Goal Management</h3>
+            <p>
+                Provide users with tools to organise
+                and manage their learning goals.
+            </p>
+        </div>
+
+        <div class="objective-card">
+            <i class="fas fa-chart-line"></i>
+            <h3>Learning Progress</h3>
+            <p>
+                Support users in keeping track of
+                their learning activities.
+            </p>
+        </div>
+
+        <div class="objective-card">
+            <i class="fas fa-user-shield"></i>
+            <h3>User Authentication</h3>
+            <p>
+                Provide account registration and
+                secure user authentication.
+            </p>
+        </div>
+
+        <div class="objective-card">
+            <i class="fas fa-mobile-screen"></i>
+            <h3>Mobile Accessibility</h3>
+            <p>
+                Make the application installable
+                on supported mobile devices.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- TECHNICAL ARCHITECTURE -->
+
+<section id="architecture" class="architecture">
+
+    <h2 class="section-title">Technical Architecture</h2>
+
+    <p class="section-subtitle">
+        Technologies and components working together
+        to power the LearnTrack application.
+    </p>
+
+    <div class="architecture-grid">
+
+        <div class="architecture-card">
+            <i class="fas fa-code"></i>
+            <h3>Frontend Development</h3>
+            <p>
+                HTML, CSS and JavaScript provide
+                the application interface and
+                interactive user experience.
+            </p>
+        </div>
+
+        <div class="architecture-card">
+            <i class="fas fa-server"></i>
+            <h3>Backend Development</h3>
+            <p>
+                ASP.NET Core MVC and C# handle
+                application logic, routing and
+                communication between components.
+            </p>
+        </div>
+
+        <div class="architecture-card">
+            <i class="fas fa-database"></i>
+            <h3>Database Management</h3>
+            <p>
+                MySQL stores application data,
+                while Entity Framework Core
+                supports database operations.
+            </p>
+        </div>
+
+        <div class="architecture-card">
+            <i class="fas fa-user-lock"></i>
+            <h3>Authentication</h3>
+            <p>
+                ASP.NET Core Identity manages
+                user accounts and authentication
+                through the application.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CORE FEATURES -->
+
+<section id="features" class="core-features">
+
+    <h2 class="section-title">Core Features</h2>
+
+    <p class="section-subtitle">
+        Key functionality developed to support
+        learning organisation and goal management.
+    </p>
+
+    <div class="features-grid">
+
+        <div class="feature-card">
+            <i class="fas fa-user-plus"></i>
+            <h3>User Registration</h3>
+            <p>
+                User account registration and
+                authentication using ASP.NET Core Identity.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-bullseye"></i>
+            <h3>Goal Management</h3>
+            <p>
+                Create and manage learning goals
+                through the application.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-chart-line"></i>
+            <h3>Progress Tracking</h3>
+            <p>
+                Organise learning activities and
+                keep track of personal progress.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-bell"></i>
+            <h3>Goal Reminders</h3>
+            <p>
+                Application reminder functionality
+                to support learning consistency.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-mobile-screen-button"></i>
+            <h3>Installable PWA</h3>
+            <p>
+                Install LearnTrack on supported
+                devices through Progressive Web App support.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-wifi"></i>
+            <h3>Offline Fallback</h3>
+            <p>
+                A service worker provides a basic
+                offline fallback page when the
+                application cannot be reached.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- TECHNOLOGY STACK -->
+
+<section id="technology" class="technology">
+
+    <h2 class="section-title">Technology Stack</h2>
+
+    <p class="section-subtitle">
+        Development technologies and tools used
+        to build and deploy LearnTrack.
+    </p>
+
+    <div class="technology-grid">
+
+        <div class="technology-card">
+            <i class="fas fa-code"></i>
+            <h3>C#</h3>
+            <p>Backend programming and application logic.</p>
+        </div>
+
+        <div class="technology-card">
+            <i class="fas fa-server"></i>
+            <h3>ASP.NET Core MVC</h3>
+            <p>Web application framework and architecture.</p>
+        </div>
+
+        <div class="technology-card">
+            <i class="fas fa-database"></i>
+            <h3>MySQL</h3>
+            <p>Relational database management.</p>
+        </div>
+
+        <div class="technology-card">
+            <i class="fas fa-diagram-project"></i>
+            <h3>Entity Framework Core</h3>
+            <p>Database access and object-relational mapping.</p>
+        </div>
+
+        <div class="technology-card">
+            <i class="fab fa-html5"></i>
+            <h3>HTML & CSS</h3>
+            <p>Application structure and visual styling.</p>
+        </div>
+
+        <div class="technology-card">
+            <i class="fab fa-js"></i>
+            <h3>JavaScript</h3>
+            <p>Client-side interactions and PWA functionality.</p>
+        </div>
+
+        <div class="technology-card">
+            <i class="fas fa-mobile-screen"></i>
+            <h3>Progressive Web App</h3>
+            <p>Installable application support and service worker.</p>
+        </div>
+
+        <div class="technology-card">
+            <i class="fas fa-cloud"></i>
+            <h3>MonsterASP.NET</h3>
+            <p>Web application hosting and deployment.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- DEVELOPMENT PROCESS -->
+
+<section id="development" class="development">
+
+    <h2 class="section-title">Development Process</h2>
+
+    <p class="section-subtitle">
+        The main stages involved in developing
+        and deploying the LearnTrack application.
+    </p>
+
+    <div class="development-grid">
+
+        <div class="development-card">
+
+            <span class="step-number">01</span>
+            <i class="fas fa-layer-group"></i>
+
+            <h3>Application Structure</h3>
+
+            <p>
+                Established the ASP.NET Core MVC
+                project structure, including models,
+                controllers, services and views.
+            </p>
+
+        </div>
+
+        <div class="development-card">
+
+            <span class="step-number">02</span>
+            <i class="fas fa-database"></i>
+
+            <h3>Database Integration</h3>
+
+            <p>
+                Configured Entity Framework Core
+                and MySQL to manage application
+                data and database migrations.
+            </p>
+
+        </div>
+
+        <div class="development-card">
+
+            <span class="step-number">03</span>
+            <i class="fas fa-user-lock"></i>
+
+            <h3>Authentication & Features</h3>
+
+            <p>
+                Integrated ASP.NET Core Identity
+                and developed the application's
+                learning and goal management functionality.
+            </p>
+
+        </div>
+
+        <div class="development-card">
+
+            <span class="step-number">04</span>
+            <i class="fas fa-mobile-screen-button"></i>
+
+            <h3>PWA Development</h3>
+
+            <p>
+                Added the web app manifest, application
+                icons and service worker to support
+                installation on mobile devices.
+            </p>
+
+        </div>
+
+        <div class="development-card">
+
+            <span class="step-number">05</span>
+            <i class="fas fa-cloud-arrow-up"></i>
+
+            <h3>Deployment</h3>
+
+            <p>
+                Published the application to
+                MonsterASP.NET, configured the
+                production database and enabled HTTPS.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SCREENSHOTS -->
+
+<section id="screenshots" class="screenshots">
+
+    <h2 class="section-title">Project Screenshots</h2>
+
+    <p class="section-subtitle">
+        A visual demonstration of the LearnTrack
+        application and its interface.
+    </p>
+
+    <div class="screenshot-grid">
+
+        <div class="screenshot-card">
+            <img src="images/sign up.jpg"
+                 alt="LearnTrack homepage">
+
+            <div class="screenshot-info">
+                <h3>Application Homepage</h3>
+                <p>Main LearnTrack interface.</p>
+            </div>
+        </div>
+
+        <div class="screenshot-card">
+            <img src="images/desctop.jpg"
+                 alt="LearnTrack user dashboard">
+
+            <div class="screenshot-info">
+                <h3>User Dashboard</h3>
+                <p>Learning and goal management interface.</p>
+            </div>
+        </div>
+
+        <div class="screenshot-card">
+            <img src="images/track.jpg"
+                 alt="LearnTrack goal management">
+
+            <div class="screenshot-info">
+                <h3>Goal Management</h3>
+                <p>Learning goal organisation.</p>
+            </div>
+        </div>
+
+        <div class="screenshot-card">
+            <img src="images/progres.jpg"
+                 alt="LearnTrack mobile application">
+
+            <div class="screenshot-info">
+                <h3>Mobile Experience</h3>
+                <p>LearnTrack installed on a mobile device.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CHALLENGES -->
+
+<section id="challenges" class="challenges">
+
+    <h2 class="section-title">Challenges & Solutions</h2>
+
+    <p class="section-subtitle">
+        Technical challenges encountered during
+        development and deployment.
+    </p>
+
+    <div class="challenges-grid">
+
+        <div class="challenge-card">
+
+            <i class="fas fa-database"></i>
+
+            <h3>Database Configuration</h3>
+
+            <h4>Challenge</h4>
+
+            <p>
+                Configuring the application to work
+                with a production MySQL database.
+            </p>
+
+            <h4>Solution</h4>
+
+            <p>
+                Configured the database connection
+                and deployed the database structure
+                to the hosting environment.
+            </p>
+
+        </div>
+
+        <div class="challenge-card">
+
+            <i class="fas fa-user-shield"></i>
+
+            <h3>User Authentication</h3>
+
+            <h4>Challenge</h4>
+
+            <p>
+                Managing user accounts and
+                authentication within the application.
+            </p>
+
+            <h4>Solution</h4>
+
+            <p>
+                Integrated ASP.NET Core Identity
+                with Entity Framework Core.
+            </p>
+
+        </div>
+
+        <div class="challenge-card">
+
+            <i class="fas fa-mobile-screen"></i>
+
+            <h3>Mobile Installation</h3>
+
+            <h4>Challenge</h4>
+
+            <p>
+                Making the web application
+                installable on supported mobile devices.
+            </p>
+
+            <h4>Solution</h4>
+
+            <p>
+                Implemented a web app manifest,
+                application icons and service worker.
+            </p>
+
+        </div>
+
+        <div class="challenge-card">
+
+            <i class="fas fa-cloud"></i>
+
+            <h3>Production Deployment</h3>
+
+            <h4>Challenge</h4>
+
+            <p>
+                Publishing the application and
+                configuring it for a live hosting environment.
+            </p>
+
+            <h4>Solution</h4>
+
+            <p>
+                Published the application to
+                MonsterASP.NET, configured production
+                settings and enabled HTTPS.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROJECT LINKS -->
+
+<section id="project-links" class="project-links">
+
+    <h2 class="section-title">Explore the Project</h2>
+
+    <p class="section-subtitle">
+        Experience the live application or explore
+        the source code on GitHub.
+    </p>
+
+    <div class="project-links-container">
+
+        <div class="project-link-card">
+
+            <i class="fas fa-globe"></i>
+
+            <h3>Live Application</h3>
+
+            <p>
+                Visit the deployed LearnTrack application
+                and explore its functionality.
+            </p>
+
+            <a href="https://learntrack.runasp.net"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn">
+                View Live Project →
+            </a>
+
+        </div>
+
+        <div class="project-link-card">
+
+            <i class="fab fa-github"></i>
+
+            <h3>GitHub Repository</h3>
+
+            <p>
+                Explore the source code, MVC architecture,
+                database integration and PWA implementation.
+            </p>
+
+            <a href="https://github.com/tyrone360/Learn-Track"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn">
+                View Source Code →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONCLUSION -->
+
+<section class="project-conclusion">
+
+    <h2 class="section-title">Project Conclusion</h2>
+
+    <p>
+        LearnTrack represents my practical experience
+        in developing and deploying a full-stack
+        web application using ASP.NET Core MVC.
+
+        Throughout this project, I worked with C#,
+        Entity Framework Core and MySQL to build
+        the application structure and manage data.
+
+        I also integrated ASP.NET Core Identity
+        for user authentication and implemented
+        Progressive Web App functionality to
+        support mobile installation.
+
+        Deploying the application introduced me
+        to production database configuration,
+        web hosting and HTTPS setup.
+
+        This project strengthened my understanding
+        of backend development, database integration,
+        application deployment and modern web technologies.
+    </p>
+</section>
+
+
+<!-- PROJECT PREVIEW -->
+
+<section class="project-preview">
+
+    <div class="preview-heading">
+        <span>FEATURED PROJECT</span>
+
+        <h2>Learn. Organise. Track Your Progress.</h2>
+
+        <p>
+            Discover LearnTrack, a learning and goal
+            tracking application built with ASP.NET Core MVC.
+        </p>
+    </div>
+
+    <div class="preview-image">
+        <img src="images/desctop.jpg"
+             alt="LearnTrack application preview">
+    </div>
+
+</section>
+
+</main>
+
+
+<a href="#" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+</a>
+
+</body>
+</html>
